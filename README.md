@@ -11,7 +11,7 @@ Each of these four iterations tested a different resampling technique with the o
 
 #### Random Oversampling
 
-![naive_oversampling](link)
+![naive_oversampling](https://github.com/mewers2/Credit_Risk_Analysis/blob/main/Resources/naive_oversampling.png)
 
 - The random oversampling classifier yielded a 0.661 balanced accuracy score, which indicates 66.1% of the predictions are correct.
 - The random oversampling classifier precision metric is 0.01 at predicting high-risk loans.  Meaning 1% of positive high-risk predictions are correct.
@@ -19,7 +19,7 @@ Each of these four iterations tested a different resampling technique with the o
 
 #### SMOTE Oversampling
 
-![smote](link)
+![smote](https://github.com/mewers2/Credit_Risk_Analysis/blob/main/Resources/smote.png)
 
 - The SMOTE oversampling classifier yielded a 0.658 balanced accuracy score, which indicates 65.8% of the predictions are correct.
 - The SMOTE oversampling classifier precision metric is 0.01 at predicting high-risk loans.  Meaning 1% of positive high-risk predictions are correct.
@@ -27,7 +27,7 @@ Each of these four iterations tested a different resampling technique with the o
 
 #### Undersampling
 
-![cc_undersampling](link)
+![cc_undersampling](https://github.com/mewers2/Credit_Risk_Analysis/blob/main/Resources/cc_undersampling.png)
 
 - The centroid clustering undersampling classifier yielded a 0.544 balanced accuracy score, which indicates 54.4% of the predictions are correct.
 - The centroid clustering undersampling classifier precision metric is 0.01 at predicting high-risk loans.  Meaning 1% of positive high-risk predictions are correct.
@@ -35,7 +35,7 @@ Each of these four iterations tested a different resampling technique with the o
 
 #### Combination Resampling (SMOTEENN)
 
-![combo_resampling](link)
+![combo_resampling](https://github.com/mewers2/Credit_Risk_Analysis/blob/main/Resources/combo_resampling.png)
 
 - The combination SMOTEENN classifier yielded a 0.671 balanced accuracy score, which indicates 67.1% of the predictions are correct.
 - The combination SMOTEENN classifier precision metric is 0.01 at predicting high-risk loans.  Meaning 1% of positive high-risk predictions are correct.
@@ -48,7 +48,7 @@ Each of these iterations ran the original dataset through an ensemble classifier
 
 #### Balanced Random Forest Classifier
 
-![brf](link)
+![brf](https://github.com/mewers2/Credit_Risk_Analysis/blob/main/Resources/brf.png)
 
 - The balanced random forest classifier yielded a 0.787 balanced accuracy score, which indicates 78.7% of the predictions are correct.
 - The balanced random forest classifier precision metric is 0.04 at predicting high-risk loans.  Meaning 4% of positive high-risk predictions are correct.
@@ -56,7 +56,7 @@ Each of these iterations ran the original dataset through an ensemble classifier
 
 #### Easy Ensemble Classifier
 
-![ez_ensemble](link)
+![ez_ensemble](https://github.com/mewers2/Credit_Risk_Analysis/blob/main/Resources/ez_ensemble.png)
 
 - The easy ensemble classifier yielded a 0.925 balanced accuracy score, which indicates 92.5% of the predictions are correct.
 - The easy ensemble classifier precision metric is 0.07 at predicting high-risk loans.  Meaning 7% of positive high-risk predictions are correct.
